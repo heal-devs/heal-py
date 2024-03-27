@@ -1,9 +1,9 @@
-import healpy
+import heallol
 import base64
 
 # from io import BytesIO
 
-heal = healpy.New("your_token_here")
+heal = heallol.New("your_token_here")
 tiktok = heal.tiktok
 
 

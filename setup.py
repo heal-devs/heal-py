@@ -3,7 +3,7 @@ import setuptools
 
 version = ""
 requirements = []
-with open("healpy/__init__.py") as f:
+with open("heallol/__init__.py") as f:
     version = re.search(
         r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]',
         f.read(),
@@ -41,7 +41,7 @@ with open("README.md", "r") as f:
     readme = f.read()
 
 setuptools.setup(
-    name="healpy",
+    name="heallol",
     author="aiokev",
     version=version,
     url="https://github.com/heal-devs/heal-py",

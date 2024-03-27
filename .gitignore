@@ -5,3 +5,7 @@ venv/*
 *.sublime-*
 config.py
 .vscode/
+build/
+dist/
+heallol.egg-info/
+.pypirc

@@ -1,8 +1,4 @@
-from typing import TYPE_CHECKING
 import aiohttp
-
-if TYPE_CHECKING:
-    from healpy import HealPy
 
 
 class TikTokPostResponse:

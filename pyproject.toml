@@ -9,7 +9,7 @@ line-length = 100
 
 [tool.mypy]
 mypy_path = "./"
-files = ["healpy"]
+files = ["heallol"]
 disallow_untyped_defs = true
 disallow_any_unimported = true
 no_implicit_optional = true
