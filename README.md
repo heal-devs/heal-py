@@ -7,6 +7,7 @@
 ## Quick Links
 
 - [PyPI Homepage](https://pypi.org/project/heallol/)
+- [API Documentation](https://docs.heal.lol/)
 
 # Install
 
