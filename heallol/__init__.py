@@ -8,7 +8,7 @@ Copyright (c) 2024, aiokev
 Licensed under GPL-3.0
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __title__ = "heallol"
 __author__ = "aiokev"
 __license__ = "GPL-3.0"

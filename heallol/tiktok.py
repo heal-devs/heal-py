@@ -62,7 +62,7 @@ class TikTok:
         - url: The URL of the TikTok post.
 
         Returns:
-        - Response.
+        - Response JSON object, HTTP status code.
         """
         async with aiohttp.ClientSession() as session:
             try:
@@ -73,5 +73,5 @@ class TikTok:
                 ) as response:
                     resp = await response.json()
                     return resp, response.status
-            except aiohttp.ClientError as e:
+            except Exception as e:
                 return e
